@@ -1,1 +1,1 @@
-web: flask init-db && gunicorn app:'create_app()' /public
+web: vendor/bin/heroku-php-apache2 public/

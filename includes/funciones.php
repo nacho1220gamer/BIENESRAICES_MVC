@@ -12,7 +12,7 @@ function estaAutenticado() {
     session_start();
 
     if(!$_SESSION['login']) {
-        header('Location: /bienesraices/index.php');
+        header('Location: /');
     } 
     
 }

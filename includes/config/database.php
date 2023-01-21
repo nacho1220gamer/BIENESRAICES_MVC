@@ -8,6 +8,8 @@ function conectarDB() : mysqli {
         $_ENV['DB_DB']
     );
 
+    $db->set_charset("utf8");
+
     if(!$db){
         echo "Error no se pudo ejecutar";
         exit;

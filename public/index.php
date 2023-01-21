@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../includes/app.php';
+require_once 'http://bienesraicesignacio.alwaysdata.net' . '/../includes/app.php';
 
 use MVC\Router;
 use Controllers\PropiedadController;
